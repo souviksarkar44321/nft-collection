@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# 🖼 NFT Collection DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a full-stack decentralized application (dApp) that allows users to mint their own NFTs using a simple React-based interface. It leverages:
 
-Try running some of the following tasks:
+- ✍️ Hardhat + Solidity for smart contract development
+- 🛠 OpenZeppelin for secure ERC721 NFT implementation
+- 🌐 React + Web3Modal + ethers.js for the frontend
+- 🔗 IPFS for decentralized metadata hosting (via Pinata or NFT.storage)
+- 🧪 Deployed on Sepolia Testnet
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+---
+
+## 📂 Project Structure
+
